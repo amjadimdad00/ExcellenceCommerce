@@ -1,0 +1,23 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "ExcellenceCommerce is a modern eCommerce platform that simplifies online shopping with an intuitive interface, secure payment options, and personalized product recommendations. It's designed to enhance user experience and help businesses thrive in the digital marketplace",
+  "main": "backend/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "platform",
+    "shopping"
+  ],
+  "author": "Amjad Imdad",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.3"
+  }
+}
